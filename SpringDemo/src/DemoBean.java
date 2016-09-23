@@ -36,4 +36,8 @@ public class DemoBean
     	int i = jt.update("insert into Student(name) values('"+getName()+"')");
     	System.out.println("record inserted sucessfully");
     }
+    public void newMethod()
+    {
+    	System.out.println("new method");
+    }
 }
